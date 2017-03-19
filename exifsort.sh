@@ -28,7 +28,7 @@ USE_FILE_EXT=TRUE
 # cause .jpg to be used instead of .jpeg as the file extension. If FALSE (or any other
 # value) .jpeg is used instead. This is only used if USE_FILE_EXT is TRUE and used.
 #
-JPEG_TO_JPG=FALSE
+JPEG_TO_JPG=TRUE
 #
 #
 # The following is an array of filetypes that we intend to locate using find.
@@ -44,7 +44,7 @@ FILETYPES=("*.jpg" "*.jpeg" "*.png" "*.tif" "*.tiff" "*.gif" "*.xcf")
 # absolute pathspec is recommended.
 # FIXME: Gracefully handle unavailable destinations, non-trailing slash, etc.
 #
-MOVETO=""
+MOVETO="${EXIFSROT_PIC_OUT}"
 #
 ###############################################################################
 # End of settings. If you feel the need to modify anything below here, please share

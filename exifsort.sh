@@ -44,7 +44,7 @@ FILETYPES=("*.jpg" "*.jpeg" "*.png" "*.tif" "*.tiff" "*.gif" "*.xcf")
 # absolute pathspec is recommended.
 # FIXME: Gracefully handle unavailable destinations, non-trailing slash, etc.
 #
-MOVETO="${EXIFSROT_PIC_OUT}"
+MOVETO="${EXIFSORT_PIC_OUT}"
 #
 ###############################################################################
 # End of settings. If you feel the need to modify anything below here, please share
